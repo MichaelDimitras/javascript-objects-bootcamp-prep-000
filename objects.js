@@ -1,4 +1,4 @@
-var playlist = {};
+var playlist = new Objest();
 
 function updatePlaylist(p, artist, song){
   p[artist] = song;
